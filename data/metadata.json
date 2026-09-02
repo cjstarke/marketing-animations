@@ -1,0 +1,62 @@
+[
+  {
+    "page": "home",
+    "title": "Converge | Return on Everything",
+    "description": "With 20+ years of experience, Converge delivers performance-driven marketing through data, creativity, and technology for measurable business growth.",
+    "ogImage":  "https://converge-strapi-prod.s3.amazonaws.com/convergeog_03fb18914a.webp"
+  },
+  {
+    "page": "insights-post",
+    "title": "News & Insights | Converge",
+    "description": "We drive business growth by attracting customers and integrating insights for better sales outcomes. Let's Converge for success!",
+    "ogImage":  "https://converge-strapi-prod.s3.amazonaws.com/convergeog_03fb18914a.webp"
+  },
+  {
+    "page": "insights",
+    "title": "News & Insights | Converge",
+    "description": "We drive business growth by attracting customers and integrating insights for better sales outcomes. Let's Converge for success!",
+    "ogImage":  "https://converge-strapi-prod.s3.amazonaws.com/convergeog_03fb18914a.webp"
+  },
+  {
+    "page": "case-study",
+    "title": "Our Work | Converge",
+    "description": "We drive business growth by attracting customers and integrating insights for better sales outcomes. Let's Converge for success!",
+    "ogImage":  "https://converge-strapi-prod.s3.amazonaws.com/convergeog_03fb18914a.webp"
+  },
+  {
+    "page": "our-work",
+    "title": "Our Work | Converge",
+    "description": "The proof is in the numbers: With $5B in media spend, $2B in client sales, and 1M+ leads generated, we deliver measurable marketing success.",
+    "ogImage":  "https://converge-strapi-prod.s3.amazonaws.com/convergeog_03fb18914a.webp"
+  },
+  {
+    "page": "contact",
+    "title": "Contact US | Converge",
+    "description": "Contact us today to leverage your marketing performance. Partner with Converge to unlock measurable growth through innovative, results-driven strategies.",
+    "ogImage":  "https://converge-strapi-prod.s3.amazonaws.com/convergeog_03fb18914a.webp"
+  },
+  {
+    "page": "what-we-do",
+    "title": "What We Do | Converge",
+    "description": "Transform your marketing with data-driven media strategies, qualified lead generation, creative campaigns, and advanced analytics for measurable results.",
+    "ogImage":  "https://converge-strapi-prod.s3.amazonaws.com/convergeog_03fb18914a.webp"
+  },
+  {
+    "page": "who-we-are",
+    "title": "Who We Are | Converge",
+    "description": "We are Converge—your Agency of Action. Our experts deliver measurable business value, optimize marketing performance, and drive real growth.",
+    "ogImage":  "https://converge-strapi-prod.s3.amazonaws.com/convergeog_03fb18914a.webp"
+  },
+  {
+    "page": "ai-for-action",
+    "title": "AI for Action | Converge",
+    "description": "We are Converge—your Agency of Action. Our experts deliver measurable business value, optimize marketing performance, and drive real growth.",
+    "ogImage":  "https://converge-strapi-prod.s3.amazonaws.com/convergeog_03fb18914a.webp"
+  },
+  {
+    "page": "sprint-session",
+    "title": "Schedule Your Sprint Session | Converge",
+    "description": "At Converge, we've spent decades helping brands turn complexity into clarity — blending media, data, and creative to drive measurable growth. Our Q4 Sprint Sessions distill that experience into a fast, focused 30-minute workshop built to help you finish the year strong.",
+    "ogImage":  "https://www.convergemarketing.com/assets/4q-1.webp"
+  }
+]

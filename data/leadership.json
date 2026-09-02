@@ -1,0 +1,92 @@
+[
+  {
+    "id": "shoshana-winter",
+    "name": "Shoshana Winter",
+    "title": "Chief Executive Officer",
+    "body": "Shoshana considers her role at Converge a culmination of over three decades of client-side and agency experience developing, orchestrating, and activating integrated campaigns that drive measurable growth for established and emerging B2C and B2B brands. Fluent in every aspect of both the art and science of modern marketing, over the course of her untraditional career, Shoshana is one of a rare breed of marketers who has been able to amass an impressive track record leveraging both traditional and digital methodologies, as she occupied a front row seat to the digital revolution. As a Silicon Alley pioneer, she has led the marketing and growth of native digital brands, from co-founding sixdegrees (the world's first social media platform) to leading marketing for Audible (in its pre-Amazon period). Her hands-on approach honed in the world of start-ups enabled her to deliver extraordinary value to her clients on the agency side who were seeking digital innovation and transformation. Shoshana has long served as a strategic advisor to CEOs and founders of high-growth startups and served as Adjunct Professor for a course she developed for the Department of Communications and Media Studies at Fordham University.",
+    "image": {
+      "src": "https://converge-strapi-prod.s3.us-east-1.amazonaws.com/shoshana_6b7a35b523.webp",
+      "alt": "Shoshana Winter - Chief Executive Officer"
+    }
+  },
+  {
+    "id": "ying-miao",
+    "name": "Ying Miao",
+    "title": "Chief Financial Officer",
+    "body": "Leading finance, HR, and legal, Ying has a proven track record of driving operational excellence, profitability, and sustainable growth across industries. As CFO at Fyllo, she led global finance and accounting for the adtech company, achieving critical milestones—including a successful Series C-3 bridge round. She has extensive experience in building and refining financial strategies, developing KPI tracking systems, and advising on international expansion. Ying has also worked in venture capital, managing due diligence on investment targets and raising funds for high-growth startups. She holds an M.S. in International Relations from Georgetown and a B.A. in Economics from Harvard. Additionally, Ying is a former concert pianist who has performed at the prestigious Carnegie Hall and Lincoln Center.",
+    "image": {
+      "src": "https://converge-strapi-prod.s3.us-east-1.amazonaws.com/ying_a1d005fd28.webp",
+      "alt": "Ying Miao - Chief Financial Officer"
+    }
+  },
+  {
+    "id": "john-lyons",
+    "name": "John Lyons",
+    "title": "Chief Performance Officer",
+    "body": "John leads the agency's creative practice and overall performance creative strategy across the entire marketing journey. With 20+ years of agency experience, John has spent his career building and leading scaled creative teams, blending data, media, and storytelling to drive growth for world-class clients. Prior to joining Converge, he served as VP, Group Creative Director at dentsu, where he was instrumental in concepting and launching the company's generative AI creative platform.",
+    "image": {
+      "src": "https://converge-strapi-prod.s3.us-east-1.amazonaws.com/john_d46242df67.webp",
+      "alt": "John Lyons - Chief Performance Officer"
+    }
+  },
+  {
+    "id": "james-pearson",
+    "name": "James Pearson",
+    "title": "Chief Communications Officer",
+    "body": "James Pearson is a seasoned public relations leader with over 20 years of experience in global media and technology. As Chief Communications Officer at Converge, he leads media relations, PR strategy, and brand campaigns that highlight the agency’s data-driven solutions. He has advised startups including Membit and LookyLoo, and held leadership roles at Shazam and Amazon. Pearson was the first internal Head of PR at Zeta Global, EmitBio, Spire Global, Grooveshark, BrightLine, Audible, and Razorfish. He has coauthored both fiction and nonfiction books, written for Premiere, Forbes, and Boxing Cat Films (Tim Allen), and served on the Newark Investment Board and Forbes Communications Council. His work includes original productions for RSUB Studios and Audible, including one of Audible’s first Originals, honored as Audiobook of the Year. He began his career in Chicago in film and television with Harpo Studios and Hughes Entertainment, grounding his communications work in narrative, authenticity, and audience connection.",
+    "image": {
+      "src": "https://converge-strapi-prod.s3.us-east-1.amazonaws.com/James_P_ee4ee2056a.webp",
+      "alt": "James Pearson - Chief Communications Officer"
+    }
+  },
+  {
+    "id": "jenny-brodowsky",
+    "name": "Jenny Brodowsky",
+    "title": "Chief Client Officer",
+    "body": "Jenny Brodowsky is a dynamic and results-driven marketing executive with a proven track record of driving revenue growth, optimizing marketing strategies, and leading high-performing teams. With extensive experience across AdTech, programmatic advertising, and data-driven marketing, Jenny has consistently delivered measurable business outcomes for Fortune 500 brands in entertainment, media, and technology. In her new role as Chief Client Officer at Converge Marketing, Jenny brings her expertise in campaign optimization, customer experience, and strategic planning to elevate performance marketing initiatives and drive ROI. She is passionate about leveraging data and insights to create innovative marketing strategies that align with business objectives and foster sustainable growth. Previously, Jenny held leadership roles at Trulieve, Fyllo, Weedmaps, IBM Watson Advertising, and Live Nation Entertainment, where she spearheaded transformative marketing strategies, secured multimillion-dollar revenue growth, and built scalable solutions to meet evolving market demands.",
+    "image": {
+      "src": "https://converge-strapi-prod.s3.us-east-1.amazonaws.com/jenny_6d810dfdcb.webp",
+      "alt": "Chief Client Officer"
+    }
+  },
+  {
+    "id": "doron-storfer",
+    "name": "Doron Storfer",
+    "title": "Chief Data & AI Officer",
+    "body": "Doron Storfer is a senior data, product, and digital transformation executive with 20+ years of experience supporting Fortune 500 organizations across financial services, technology, and data-driven industries. His career includes leadership roles at Amazon, Kantar, Dun & Bradstreet, MetLife, and Neuberger Berman, where he has built and commercialized analytics platforms, SaaS products, and AI-driven solutions used to drive growth, improve customer intelligence, and optimize enterprise decision-making. Doron specializes in translating complex data assets into scalable commercial products that improve acquisition, retention, portfolio performance, and go-to-market effectiveness across regulated and high-growth sectors.",
+    "image": {
+      "src": "https://converge-strapi-prod.s3.us-east-1.amazonaws.com/Doron_S_e29192d982.webp",
+      "alt": "Doron Storfer - Chief Data & AI Officer"
+    }
+  },
+  {
+    "id": "dov-calderon",
+    "name": "Dov Calderon",
+    "title": "SVP, Client Solutions",
+    "body": "One of the longest-serving members of the team, Dov joined Converge back in 2008. He has spent his whole career in advertising and marketing, previously at larger companies like MDPI, ID Media, and OMD. He started as a media analyst and now leads channel strategy and client relations. Dov is extremely proud of maintaining one of our longest tenured partner relationships spanning over 16 years. Outside of work, he most enjoys being a husband, dog dad, and traveler.",
+    "image": {
+      "src": "https://converge-strapi-prod.s3.us-east-1.amazonaws.com/dov_679689e083.webp",
+      "alt": "Dov Calderon - SVP Managed Services & Performance Media Lead"
+    }
+  },
+  {
+    "id": "scott-rechter",
+    "name": "Scott Rechter",
+    "title": "VP, Digital Strategy",
+    "body": "Scott's career comprises more than 13 years of media experience in the luxury, retail, auto, pharmaceutical, B2B, health & wellness, financial services, consumer electronics, telecommunications, and home services sectors. He has held roles in paid search, digital planning & buying, client services/account leadership, and digital strategy at agencies such as Mediacom and iProspect. Scott has been integral to the growth of multiple clients, as they've expanded their media strategies from operating one or two channels to testing bold ideas and launching full-funnel acquisition campaigns. Outside of work, his interests include family time, playing guitar, watching sports and TV shows, and mixology.",
+    "image": {
+      "src": "https://converge-strapi-prod.s3.us-east-1.amazonaws.com/Scott_R_9f0564168e.webp",
+      "alt": "Scott Rechter - VP Digital Strategy"
+    }
+  },
+  {
+    "id": "jose-soto",
+    "name": "Jose Soto",
+    "title": "VP, Engineering",
+    "body": "Jose has 20 years' experience in technology, including three and a half with Converge. His work history consists of customer support, IT, and software engineering roles at various companies ranging from small startups to large corporations. In addition to branding and marketing, Jose has held positions in architecture, insurance, web hosting, healthcare, blockchain, and crypto—leading teams while building and scaling technology. He also enjoys teaching and mentoring other developers via his YouTube channel, @JoseCanHelp. Outside of work, he's passionate about overlanding and camping with his family as well as playing soccer.",
+    "image": {
+      "src": "https://converge-strapi-prod.s3.us-east-1.amazonaws.com/jose_48a99ffd7e.webp",
+      "alt": "Jose Soto - VP Engineering"
+    }
+  }
+]

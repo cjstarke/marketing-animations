@@ -1,0 +1,101 @@
+[
+  {
+    "image": "https://converge-strapi-prod.s3.amazonaws.com/helixcard_e219dffe0c.webp?updated_at=2024-02-20T21:12:07.704Z",
+    "imageLg": "https://converge-strapi-prod.s3.amazonaws.com/helixwide_de9354b3d7.webp?updated_at=2024-02-20T22:05:59.827Z",
+    "imageAlt": "Helix",
+    "title": "Presenting Helix. Data’s Matchmaker",
+    "description": "Data becomes intelligence when it's connected. As your numbers grow, you need ensure that the learnings are clear and aligned across all of your channels.",
+    "link": "/helix",
+    "linkText": "Read More",
+    "date": "Mar 1, 2024, 15:00 ET",
+    "hashtags": "tech"
+  },
+  {
+    "image": "https://converge-strapi-prod.s3.amazonaws.com/lejeunecard_348e3848c0.webp",
+    "imageLg": "https://converge-strapi-prod.s3.amazonaws.com/cljwide_84e00b3137.webp",
+    "imageAlt": "Camp Lejeune Case Study",
+    "title": "Targeting Success for Camp Lejeune Claims",
+    "description": "Converge was tasked with planning a marketing strategy for Camp Lejeune claims, potentially one of the largest case types handled by the firm.",
+    "link": "/camplejeune",
+    "linkText": "Read More",
+    "date": "Mar 1, 2024, 15:00 ET",
+    "hashtags": "performance"
+  },
+  {
+    "image": "https://converge-strapi-prod.s3.amazonaws.com/hscard_118c442a62.webp?updated_at=2024-02-20T21:12:05.403Z",
+    "imageLg": "https://converge-strapi-prod.s3.amazonaws.com/hswide_4776649991.webp?updated_at=2024-02-20T22:03:17.400Z",
+    "imageAlt": "Home Services",
+    "title": "A Home Services Brand – Opportunities Hiding in Plain Sight",
+    "description": "A major home services brand was unhappy with their level and speed of growth.",
+    "link": "/home-services",
+    "linkText": "Read More",
+    "date": "Mar 1, 2024, 15:00 ET",
+    "hashtags": "performance"
+  },
+  {
+    "image": "https://converge-strapi-prod.s3.amazonaws.com/roofingcard_d9693fbe5e.webp?updated_at=2024-02-20T21:16:38.597Z",
+    "imageLg": "https://converge-strapi-prod.s3.amazonaws.com/roofwide_c61c68729c.webp?updated_at=2024-02-20T22:03:18.398Z",
+    "imageAlt": "Roofing",
+    "title": "Raising the roof for a major installer",
+    "description": "Our client was eager to focus on growth and lead generation, to fuel their business with unstoppable momentum.",
+    "link": "/roofing",
+    "linkText": "Read More",
+    "date": "Mar 1, 2024, 15:00 ET",
+    "hashtags": "performance"
+  },
+  {
+    "image": "https://converge-strapi-prod.s3.amazonaws.com/windowscard_07c1e2eb4e.webp?updated_at=2024-02-20T21:12:05.504Z",
+    "imageLg": "https://converge-strapi-prod.s3.amazonaws.com/wiwide_d95742104d.webp?updated_at=2024-02-20T22:03:17.811Z",
+    "imageAlt": "Windows Installer",
+    "title": "Windows Installer – Growth Uncomplicated",
+    "description": "A major windows installer needed to drive qualified appointments at a fixed cost per appointment model.",
+    "link": "/windows-installer",
+    "linkText": "Read More",
+    "date": "Mar 1, 2024, 15:00 ET",
+    "hashtags": "performance"
+  },
+  {
+    "image": "https://converge-strapi-prod.s3.amazonaws.com/telcocard_c2d0d61c2c.webp?updated_at=2024-02-20T21:12:08.306Z",
+    "imageLg": "https://converge-strapi-prod.s3.amazonaws.com/telcowide_c2855055b1.webp?updated_at=2024-02-20T22:03:21.824Z",
+    "imageAlt": "Telco",
+    "title": "Telco – From Prospecting to Foot Traffic",
+    "description": "A leading prepaid wireless carrier wanted to drive foot traffic to its network of Authorized Retailers with the goal of efficient new account acquisitions.",
+    "link": "/telco",
+    "linkText": "Read More",
+    "date": "Mar 1, 2024, 15:00 ET",
+    "hashtags": "performance"
+  },
+  {
+    "image": "https://converge-strapi-prod.s3.amazonaws.com/So_Fi_Stadium_Card_507d729b47.webp",
+    "imageLg": "https://converge-strapi-prod.s3.amazonaws.com/sofi_3a8d44862a.webp?updated_at=2023-06-27T20:02:44.914Z",
+    "imageAlt": "SoFi",
+    "title": "The Complete SoFi Experience",
+    "description": "As the naming rights holder to the most expensive stadium in the world, the pressure was on SoFi to elevate the gameday experience for fans and differentiate itself from the other stadiums around the league.",
+    "link": "/sofi",
+    "linkText": "Read More",
+    "date": "Mar 1, 2024, 15:00 ET",
+    "hashtags": "brand"
+  },
+  {
+    "image": "https://converge-strapi-prod.s3.amazonaws.com/Pointsbet_Card_e3d72392d2.webp?updated_at=2024-02-20T21:12:08.397Z",
+    "imageLg": "https://converge-strapi-prod.s3.amazonaws.com/pbwide_b299336fde.webp?updated_at=2024-02-20T22:03:21.797Z",
+    "imageAlt": "Points Bet Card",
+    "title": "Creating national relevance to a foreign-born latecomer",
+    "description": "PointsBet is an innovative, tech-forward, Australian-based online betting brand looking to insert themselves in a big way in the U.S.’s rapidly growing $50 billion-dollar online gambling category. We were their first marketing partner and strategic advisor helping them make noise in an already deafening category.",
+    "link": "/pointsbet",
+    "linkText": "Read More",
+    "date": "Mar 1, 2024, 15:00 ET",
+    "hashtags": "brand"
+  },
+  {
+    "image": "https://converge-strapi-prod.s3.amazonaws.com/PGA_Card_bbf91ee80a.webp?updated_at=2024-02-20T21:12:05.601Z",
+    "imageLg": "https://converge-strapi-prod.s3.amazonaws.com/pgawide_0e3990e679.webp?updated_at=2024-02-20T22:03:21.697Z",
+    "imageAlt": "PGA",
+    "title": "The delicate reinvention of an iconic organization",
+    "description": "The PGA is founded on tradition, excellence and the integrity of its golfers, sponsors and all of its members. It’s not an organization that is prone to change. And for the last twenty years, they ran the “These Guys Are Good” campaign focusing on the players and their incredible skills. But when it was time for a change, they trusted us.",
+    "link": "/pga",
+    "linkText": "Read More",
+    "date": "Mar 1, 2024, 15:00 ET",
+    "hashtags": "brand"
+  }
+]

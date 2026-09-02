@@ -1,0 +1,33 @@
+.complianceContainer{
+    padding-top: 10rem;
+}
+.complianceContainer a{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.complianceContainer table {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+} 
+.complianceContainer table th td {
+    border: 1px solid;
+    padding: 8px;
+}
+.complianceContainer td{
+    text-align: left;
+    vertical-align: top;
+}
+.complianceContainer ul{
+    list-style: disc;
+    list-style-type: disc !important;
+    margin: revert;
+    padding: revert;
+}
+.complianceContainer ul ul{
+    list-style-type: circle !important;
+}
+.complianceContainer ol{
+    list-style: revert;
+    margin: revert;
+    padding: revert;
+}

@@ -1,0 +1,62 @@
+{
+  "markerDestination": "6400fa06192074a0425a8d98",
+  "appId": "100817",
+  "unifier": "21A2FE5473610D6FCAC0D857BAE25467",
+  "gtmId": "GTM-KF8J6DFS",
+  "links": [
+    { "text": "Who we are", "href": "/who-we-are", "id": "who-we-are" },
+    { "text": "What we do", "href": "/what-we-do", "id": "what-we-do" },
+    { "text": "Our work", "href": "/our-work", "id": "our-work" },
+    { "text": "Insights & News", "href": "/insights", "id": "insights-and-news" },
+    { "text": "Schedule a Session", "href": "/insights/sprint-session", "id": "sprint-session" }
+  ],
+  "services": [
+    { "text": "Media performance", "href": "/media-performance", "id": "media-performance" },
+    { "text": "Advanced analytics", "href": "/advanced-analytics", "id": "advanced-analytics" },
+    { "text": "Lead acquisition", "href": "/lead-acquisition", "id": "lead-acquisition" },
+    { "text": "Performance creative", "href": "/performance-creative", "id": "performance-creative" },
+    { "text": "Experience design", "href": "/experience-design", "id": "experience-design" }
+  ],
+  "socials": [
+    {
+      "text": "LinkedIn",
+      "href": "https://www.linkedin.com/company/convergedirect/"
+    },
+    {
+      "text": "Instagram",
+      "href": "https://www.instagram.com/convergemarketing/"
+    },
+    {
+      "text": "Facebook",
+      "href": "https://www.facebook.com/ConvergeDirect"
+    }
+  ],
+  "articles": [
+    {
+      "heading": "Expanding Channel Mix to Accelerate Awareness & Demand",
+      "subheading": "With a growing need to increase consideration meant reaching new audiences while shifting beyond last click attribution...",
+      "link": "/direct-response-marketing-drives-performance-through-ctv",
+      "img": "https://converge-strapi-prod.s3.amazonaws.com/4insight_d2c8db5782.webp"
+    },
+    {
+      "heading": "Data Driven Geo-Targeting Drives Sales & Efficiency",
+      "subheading": "Print media is an effective vehicle for driving new customer acquisition but can be inefficient when messaging is sent to a broad audience without a well thought out targeting approach.",
+      "link": "media-is-a-superpower",
+      "img": "https://converge-strapi-prod.s3.amazonaws.com/3insight_83addf1b6b.webp",
+      "category": "News"
+    },
+    {
+      "heading": "Launching Full Funnel Acquisition Campaign to Drive New Customer Memberships",
+      "subheading":"After a post-pandemic surge and success in word-of-mouth tactics, new customer acquisition for a Weight Loss Nutritional Program had stalled. With changing consumer trends in weight loss, our client needed to amplify their message and expand advertising to attract new customers, going from mainly Paid Search to a full funnel digital acquisition plan.",
+      "link": "/major-roofing-company-gets-performance-boost",
+      "img": "https://converge-strapi-prod.s3.amazonaws.com/2insight_984bc6e624.webp"
+    },
+    {
+      "heading": "Integrating Traditional & Digital Media to Drive Store Traffic and New Customer Accounts",
+      "subheading":"Campaign provided the lowest cost per new subscriber when compared to other campaigns against the same objective.",
+      "link": "/mobile-retailer-exceeds-profit-margins",
+      "img": "https://converge-strapi-prod.s3.amazonaws.com/1insight_c113601434.webp"
+    }
+  ]
+
+}
