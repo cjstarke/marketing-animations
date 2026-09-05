@@ -1,7 +1,6 @@
 import { useRef } from 'react'
 import { useScrollTriggerFadeIn } from '../utils/gsap'
-import ConvergeButtonLink from './ConvergeButtonLink'
-import NewsAndInsightsCard from './NewsAndInsightsCard'
+import ButtonLink from './ButtonLink'
 
 const ExploreSectionAnimated = () => {
   const headingRef = useRef<HTMLHeadingElement>(null)
@@ -17,16 +16,16 @@ const ExploreSectionAnimated = () => {
           ref={headingRef}
           className="text-2xlplus mb-10 lg:text-4xl leading-default text-pretty lg:leading-default"
         >
-          The traditional agency model is splintered. Brand teams, performance
-          teams, media teams — each with different strategies, goals, and
-          definitions of success.
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+          quae ab illo inventore veritatis.
           <span className="font-bold">
             {' '}
-            We know marketing works better together.
+            Et quasi architecto beatae vitae dicta sunt explicabo.
           </span>
         </h3>
         <div ref={buttonRef}>
-          <ConvergeButtonLink
+          <ButtonLink
             id="explore-what-we-do-button"
             text="Explore what we do"
           />

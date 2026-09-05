@@ -5,19 +5,19 @@ const NumbersAnimatedMobile = () => {
   const results = [
     {
       title: '$5B+',
-      description: 'media spend',
+      description: 'lorem ipsum dolor sit',
     },
     {
       title: '$2b+',
-      description: 'in client sales',
+      description: 'consectetur adipiscing elit',
     },
     {
       title: '1M+',
-      description: 'leads generated',
+      description: 'sed do eiusmod',
     },
     {
       title: '1K+',
-      description: 'unique data source partners',
+      description: 'incididunt ut labore',
     },
   ]
 
@@ -48,7 +48,7 @@ const NumbersAnimatedMobile = () => {
         {/* Heading Section */}
         <div className="text-center mb-12">
           <h3 className="noshake text-2xl sm:text-3xl font-medium mb-4">
-            Strength in the numbers.
+            Lorem ipsum dolor sit amet.
           </h3>
         </div>
 

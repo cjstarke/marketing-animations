@@ -1,26 +1,24 @@
 import { useRef } from 'react'
-import { gsap, ScrollTrigger, useGSAP } from '../utils/gsap'
+import { gsap, useGSAP } from '../utils/gsap'
 
-import { PinkCreative, PinkData, PinkMedia, PinkQualified } from './SVGs'
-import numberData from '../data/whatWeDoData.json'
 
 const NumbersAnimatedDesktop = () => {
   const results = [
     {
       title: '$5B+',
-      description: 'media spend',
+      description: 'lorem ipsum dolor sit',
     },
     {
       title: '$2b+',
-      description: 'in client sales',
+      description: 'consectetur adipiscing elit',
     },
     {
       title: '1M+',
-      description: 'leads generated',
+      description: 'sed do eiusmod',
     },
     {
       title: '1K+',
-      description: 'unique data source partners',
+      description: 'incididunt ut labore ',
     },
   ]
   // Desktop refs
@@ -107,7 +105,7 @@ const NumbersAnimatedDesktop = () => {
         >
           <div ref={headingRef} className="text-center mb-16">
             <h3 className="noshake text-4xl md:text-5xl  font-medium  mb-8">
-              Strength in the numbers.
+              Lorem ipsum dolor sit amet.
             </h3>
           </div>
 

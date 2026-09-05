@@ -1,13 +1,8 @@
-import ConvergeButtonLink from '../components/ConvergeButtonLink'
-import CustomHead from '../components/CustomHead'
+import ButtonLink from '../components/ButtonLink'
 
 const NotFound = () => {
   return (
     <>
-      <CustomHead
-        page="404"
-      />
-
       <main className="grid min-h-full place-items-center bg-white px-6 py-24 sm:py-32 lg:px-8">
         <div className="text-center">
           <p className="text-base font-semibold text-hotPink">404</p>
@@ -19,7 +14,7 @@ const NotFound = () => {
             may have been moved.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <ConvergeButtonLink
+            <ButtonLink
               id="404-go-home-button"
               href={'/'}
               className="flex"

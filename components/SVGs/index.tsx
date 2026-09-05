@@ -1,11 +1,2 @@
-export * from './RadialPink'
-export * from './BlueOrangePulse'
-export * from './WhitePulse'
-export * from './DoubleQuote'
 export * from './XIcon'
-export * from './XIconBlack'
-export * from './Target'
-export * from './PinkCreative'
-export * from './PinkData'
-export * from './PinkMedia'
-export * from './PinkQualified'
+

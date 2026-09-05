@@ -1,5 +1,4 @@
 const fs = require('fs');
-const path = require('path');
 
 // List of components that need updating
 const componentsToUpdate = [
@@ -17,14 +16,7 @@ const componentsToUpdate = [
 function updateGsapImports(filePath) {
   try {
     let content = fs.readFileSync(filePath, 'utf8');
-    
-    // Pattern to match the old import pattern
-    const oldImportPattern = /import { useRef(?:, [^}]+)? } from 'react'\nimport { gsap } from 'gsap'\nimport { ScrollTrigger } from 'gsap\/dist\/ScrollTrigger'\nimport { useGSAP } from '@gsap\/react'\n\ngsap\.registerPlugin\(ScrollTrigger\)/;
-    
-    // New import pattern
-    const newImportPattern = `import { useRef$1 } from 'react'
-import { gsap, ScrollTrigger, useGSAP } from '../utils/gsap'`;
-    
+
     // Replace the pattern
     content = content.replace(
       /import { (useRef(?:, [^}]+)?) } from 'react'\nimport { gsap } from 'gsap'\nimport { ScrollTrigger } from 'gsap\/dist\/ScrollTrigger'\nimport { useGSAP } from '@gsap\/react'\n\ngsap\.registerPlugin\(ScrollTrigger\)/,

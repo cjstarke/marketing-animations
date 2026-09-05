@@ -336,7 +336,7 @@ const WhatWeDoDiagram = () => {
       <div className="w-full flex justify-center px-6 lg:px-20">
         <div className="flex flex-col lg:flex-row lg:items-center justify-center mb-8 max-w-xl lg:max-w-screen-xl w-full lg:justify-start lg:mb-0">
           <p className="font-bold text-lgplus mb-4 lg:mb-0 lg:text-xl lg:w-72 lg:mr-6">
-            Choose any two areas to see how they converge:
+            Lorem ipsum dolor sit amet consectetur:
           </p>
           <div className="flex items-center space-x-3 mb-5 lg:mb-0">
             {/* Dropdown 1 */}

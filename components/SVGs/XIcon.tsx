@@ -1,4 +1,3 @@
-import { useConvergePage } from '../../contexts/ConvergePageContext'
 
 export const XIcon = () => {
   return (

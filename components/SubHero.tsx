@@ -37,14 +37,14 @@ const SubHero = () => {
             Return on Everything.
           </h2>
           <p className="text-lgplus leading-five text-pretty mb-10 lg:mb-20 lg:text-2xlplus lg:leading-default xl:leading-default lg:max-w-200 xl:text-3xl xl:max-w-224">
-            Most agencies pick a lane. We converge them all. We turn marketing
-            into a profit center by connecting media, creative, data, and
-            technology into one performance system — so every dollar, every
-            channel, and every activity proves its value.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
           </p>
           <div className="flex flex-col lg:flex-row lg:items-center w-full">
             <h3 className="text-3xlplus text-pretty lg:text-5xl mb-4 lg:mb-0 lg:mr-6">
-              How we drive Return on
+              Lorem ipsum dolor sit
             </h3>
 
             {/* dropdown */}

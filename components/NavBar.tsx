@@ -1,17 +1,12 @@
 import clsx from 'clsx'
 import { useState } from 'react'
-import { useConvergePage } from '../contexts/ConvergePageContext'
-import ConvergeButtonLink from './ConvergeButtonLink'
+import ButtonLink from './ButtonLink'
 import BurgerHide from './SVGs/BurgerHide'
-import ConvergeLogo from './SVGs/ConvergeLogo'
-import ConvergeLogoPink from './SVGs/ConvergeLogoPink'
 
 const NavBar = () => {
-  const {  currentPage } = useConvergePage()
   const [isNavOpen, setIsNavOpen] = useState(false)
 
   const navOpenClasses = 'h-screen overflow sm:overflow-y-clip'
-
 
   const outerclasses = clsx(
     isNavOpen ? `${navOpenClasses} ` : 'overflow-y-clip',
@@ -33,58 +28,29 @@ const NavBar = () => {
       <div className="w-full text-shark dark:text-white py-4 px-6  xl:px-10 overflow-x-clip border-b border-shark dark:border-white font-roboto flex justify-center">
         <div className="relative w-full flex items-center justify-between flex-row max-w-7xl">
           <a href={'/'} id="nav-bar-logo" className="w-44">
-            <ConvergeLogoPink />
+            <img
+              src="https://converge-strapi-prod.s3.us-east-1.amazonaws.com/i_Phone_17_1_1f3889c068.png"
+              alt="logo"
+            />
           </a>
           <div className="hidden lg:flex flex-row items-center lg:space-x-2 xl:space-x-10">
-            <a href={'/who-we-are'} id="nav-bar-who-we-are">
-              <p
-                className={
-                  currentPage === 'who-we-are'
-                    ? `${linkClasses} text-darkPink`
-                    : linkClasses
-                }
-              >
-                Who we are
-              </p>
+            <a href={'/'} id="nav-bar-who-we-are">
+              <p className={linkClasses}>Lorem ipsum</p>
             </a>
-            <a href={'/what-we-do'} id="nav-bar-what-we-do">
-              <p
-                className={
-                  currentPage === 'what-we-do'
-                    ? `${linkClasses} text-darkPink dark:text-skyBlue`
-                    : linkClasses
-                }
-              >
-                What we do
-              </p>
+            <a href={'/'} id="nav-bar-what-we-do">
+              <p className={linkClasses}>Dolor sit amet</p>
             </a>
-            <a href={'/our-work'} id="nav-bar-our-work">
-              <p
-                className={
-                  currentPage === 'our-work'
-                    ? `${linkClasses} text-darkPink`
-                    : linkClasses
-                }
-              >
-                Our work
-              </p>
+            <a href={'/'} id="nav-bar-our-work">
+              <p className={linkClasses}>Consectetur adipiscing</p>
             </a>
-            <a href={'/insights'} id="nav-bar-insights">
-              <p
-                className={
-                  currentPage === 'insights'
-                    ? `${linkClasses} text-darkPink`
-                    : linkClasses
-                }
-              >
-                Insights & news
-              </p>
+            <a href={'/'} id="nav-bar-insights">
+              <p className={linkClasses}>Sed do eiusmod</p>
             </a>
           </div>
           <div className="hidden lg:flex justify-start w-[250px] shrink-0">
-            <ConvergeButtonLink
+            <ButtonLink
               id="nav-bar-contact"
-              href={'/contact'}
+              href={'/'}
               className="bg-transparent lg:px-16"
               text="Get in touch"
             />
@@ -120,7 +86,7 @@ const NavBar = () => {
         }
       >
         <a
-          href={'/who-we-are'}
+          href={'/'}
           id="nav-bar-open-who-we-are"
           onClick={() => setIsNavOpen(false)}
           className="w-fit"
@@ -129,7 +95,7 @@ const NavBar = () => {
         </a>
 
         <a
-          href={'/what-we-do'}
+          href={'/'}
           id="nav-bar-open-what-we-do"
           onClick={() => setIsNavOpen(false)}
           className="w-fit"
@@ -137,7 +103,7 @@ const NavBar = () => {
           <p className={openLinkClasses}>What we do</p>
         </a>
         <a
-          href={'/our-work'}
+          href={'/'}
           id="nav-bar-open-our-work"
           onClick={() => setIsNavOpen(false)}
           className="w-fit"
@@ -145,20 +111,19 @@ const NavBar = () => {
           <p className={openLinkClasses}>Our work</p>
         </a>
         <a
-          href={'/insights'}
+          href={'/'}
           id="nav-bar-open-insights"
           onClick={() => setIsNavOpen(false)}
           className="w-fit"
         >
           <p className={openLinkClasses}>Insights & news</p>
         </a>
-        <ConvergeButtonLink
+        <ButtonLink
           id="nav-bar-contact"
-          href={'/contact'}
+          href={'/'}
           className={''}
           text="talk performance"
           onClick={() => setIsNavOpen(false)}
-          
         />
       </div>
     </div>

@@ -140,7 +140,7 @@ console.log('Removing unused imports from remaining files...\n');
 let filesProcessed = 0;
 let filesSkipped = 0;
 
-for (const [file, config] of Object.entries(filesToFix)) {
+for (const file of Object.keys(filesToFix)) {
   const filePath = path.join(process.cwd(), file);
   
   if (!fs.existsSync(filePath)) {

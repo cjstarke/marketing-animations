@@ -1,5 +1,5 @@
 {
-  "name": "converge-marketing",
+  "name": "marketing-animations",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -8,11 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "clean": "rm -rf .next node_modules",
-    "test": "playwright test",
-    "postbuild": "next-sitemap"
+    "test": "playwright test"
   },
   "dependencies": {
-    "@converge/multi-branch-staging": "^2.2.4",
     "@converge/ui": "^2.7.1",
     "@converge/utils": "^2.1.3",
     "@gsap/react": "^2.1.2",
@@ -32,7 +30,6 @@
     "graphql": "^16.8.1",
     "gsap": "^3.13.0",
     "next": "13.5.2",
-    "next-sitemap": "^4.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-fast-marquee": "^1.6.5",

@@ -4,12 +4,9 @@ import metaData from '../data/metadata.json'
 
 
 
-const domain =
-  process.env.NEXT_PUBLIC_APP_ENV !== 'production'
-    ? `${process.env.NEXT_PUBLIC_APP_ENV}.convergemarketing.com`
-    : '/convergemarketing.com'
+const domain = 'localhost:3000'
 export const metadata = {
-  metadataBase: new URL(`https://${domain}`),
+  metadataBase: new URL(`http://${domain}`),
 }
 export const generateCanonUrl = (slug: string) => {
   const url =

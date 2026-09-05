@@ -1,7 +1,7 @@
 import { twMerge } from 'tailwind-merge'
 import RightArrow from './SVGs/RIghtArrow'
 
-export type ConvergeButtonLinkProps = {
+export type ButtonLinkProps = {
   className?: string
   href?: string
   text?: string
@@ -11,7 +11,7 @@ export type ConvergeButtonLinkProps = {
   openInNewTab?: boolean
 }
 
-const ConvergeButtonLink = ({
+const ButtonLink = ({
   className,
   href = '/contact',
   text = 'Get a free performance audit',
@@ -19,7 +19,7 @@ const ConvergeButtonLink = ({
   onClick = () => {},
   pinkArrow = true,
   openInNewTab = false,
-}: ConvergeButtonLinkProps) => {
+}: ButtonLinkProps) => {
   const classes = twMerge(
     'text-lg text-shark font-medium border px-5 py-2 border-shark rounded-full flex items-center group justify-center w-fit',
     className
@@ -45,4 +45,4 @@ const ConvergeButtonLink = ({
     </a>
   )
 }
-export default ConvergeButtonLink
+export default ButtonLink

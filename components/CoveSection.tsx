@@ -1,9 +1,7 @@
 import { useRef } from 'react'
-import ConvergeButtonLink from './ConvergeButtonLink'
+import ButtonLink from './ButtonLink'
 import { CoveCircles } from './SVGs/CoveCircles'
 import { CoveLogo } from './SVGs/CoveLogo'
-import { Cove } from './SVGs/Cove'
-import { ByConverge } from './SVGs/ByConverge'
 import { gsap, useGSAP } from '../utils/gsap'
 
 const CoveSection = () => {
@@ -44,26 +42,25 @@ const CoveSection = () => {
             <div className="w-16 lg:w-20 ">
               <CoveLogo />
             </div>
-            <div className="w-24 lg:w-32">
-              <Cove />
-            </div>
-            <div className="w-28 mt-2 lg:w-32 lg:mt-4">
-              <ByConverge />
-            </div>
+            <img
+              src="https://converge-strapi-prod.s3.us-east-1.amazonaws.com/i_Phone_17_1_1f3889c068.png"
+              alt="logo"
+              className='w-44'
+            />
           </div>
           <h4 className="text-2xl pt-8 lg:text-3xl">
-            Our first-party data marketplace{' '}
+            Lorem ipsum dolor sit amet{' '}
             <span className="font-extrabold">
-              built to accelerate growth.
+              consectetur adipiscing elit.
             </span>{' '}
           </h4>
           <p className="text-lg pt-4 pb-8">
-            We built Cove to deliver what performance marketers value most —
-            pre-qualified, identity-based customer intelligence.
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua —
+            ut enim ad minim veniam quis nostrud exercitation.
           </p>
-          <ConvergeButtonLink
+          <ButtonLink
             id={'cove-section-button'}
-            href="https://cove.convergemarketing.com/"
+            href="/"
             className="text-white border-white"
             text="Learn more"
             openInNewTab={true}
