@@ -7,15 +7,43 @@
     { "text": "Who we are", "href": "/who-we-are", "id": "who-we-are" },
     { "text": "What we do", "href": "/what-we-do", "id": "what-we-do" },
     { "text": "Our work", "href": "/our-work", "id": "our-work" },
-    { "text": "Insights & News", "href": "/insights", "id": "insights-and-news" },
-    { "text": "Schedule a Session", "href": "/insights/sprint-session", "id": "sprint-session" }
+    {
+      "text": "Insights & News",
+      "href": "/insights",
+      "id": "insights-and-news"
+    },
+    {
+      "text": "Schedule a Session",
+      "href": "/insights/sprint-session",
+      "id": "sprint-session"
+    }
   ],
   "services": [
-    { "text": "Media performance", "href": "/media-performance", "id": "media-performance" },
-    { "text": "Advanced analytics", "href": "/advanced-analytics", "id": "advanced-analytics" },
-    { "text": "Lead acquisition", "href": "/lead-acquisition", "id": "lead-acquisition" },
-    { "text": "Performance creative", "href": "/performance-creative", "id": "performance-creative" },
-    { "text": "Experience design", "href": "/experience-design", "id": "experience-design" }
+    {
+      "text": "Media performance",
+      "href": "/media-performance",
+      "id": "media-performance"
+    },
+    {
+      "text": "Advanced analytics",
+      "href": "/advanced-analytics",
+      "id": "advanced-analytics"
+    },
+    {
+      "text": "Lead acquisition",
+      "href": "/lead-acquisition",
+      "id": "lead-acquisition"
+    },
+    {
+      "text": "Performance creative",
+      "href": "/performance-creative",
+      "id": "performance-creative"
+    },
+    {
+      "text": "Experience design",
+      "href": "/experience-design",
+      "id": "experience-design"
+    }
   ],
   "socials": [
     {
@@ -47,16 +75,15 @@
     },
     {
       "heading": "Launching Full Funnel Acquisition Campaign to Drive New Customer Memberships",
-      "subheading":"After a post-pandemic surge and success in word-of-mouth tactics, new customer acquisition for a Weight Loss Nutritional Program had stalled. With changing consumer trends in weight loss, our client needed to amplify their message and expand advertising to attract new customers, going from mainly Paid Search to a full funnel digital acquisition plan.",
+      "subheading": "After a post-pandemic surge and success in word-of-mouth tactics, new customer acquisition for a Weight Loss Nutritional Program had stalled. With changing consumer trends in weight loss, our client needed to amplify their message and expand advertising to attract new customers, going from mainly Paid Search to a full funnel digital acquisition plan.",
       "link": "/major-roofing-company-gets-performance-boost",
       "img": "https://converge-strapi-prod.s3.amazonaws.com/2insight_984bc6e624.webp"
     },
     {
       "heading": "Integrating Traditional & Digital Media to Drive Store Traffic and New Customer Accounts",
-      "subheading":"Campaign provided the lowest cost per new subscriber when compared to other campaigns against the same objective.",
+      "subheading": "Campaign provided the lowest cost per new subscriber when compared to other campaigns against the same objective.",
       "link": "/mobile-retailer-exceeds-profit-margins",
       "img": "https://converge-strapi-prod.s3.amazonaws.com/1insight_c113601434.webp"
     }
   ]
-
 }

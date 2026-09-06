@@ -1,7 +1,6 @@
 import { useRef } from 'react'
 import { gsap, useGSAP } from '../utils/gsap'
 
-
 const NumbersAnimatedDesktop = () => {
   const results = [
     {
@@ -21,7 +20,6 @@ const NumbersAnimatedDesktop = () => {
       description: 'incididunt ut labore ',
     },
   ]
-  // Desktop refs
   const numbersRef = useRef<HTMLDivElement>(null)
   const headingRef = useRef<HTMLHeadingElement>(null)
   const number1Ref = useRef<HTMLDivElement>(null)
@@ -30,7 +28,6 @@ const NumbersAnimatedDesktop = () => {
   const number4Ref = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {
-    // Desktop animation
     if (
       !numbersRef.current ||
       !headingRef.current ||
@@ -48,7 +45,6 @@ const NumbersAnimatedDesktop = () => {
       number4Ref.current,
     ]
 
-    // Create timeline for desktop
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: numbersRef.current,
@@ -59,7 +55,6 @@ const NumbersAnimatedDesktop = () => {
       },
     })
 
-    // Set initial state - numbers off-screen right, scaled 130%, heading invisible
     gsap.set(numbers, {
       x: '100vw',
       scale: 3,
@@ -70,7 +65,6 @@ const NumbersAnimatedDesktop = () => {
       opacity: 0,
     })
 
-    // Phase 1: numbers enter from right and move to position (0% - 30% of scroll)
     tl.to(numbers, {
       x: 0,
       scale: 1,
@@ -80,14 +74,12 @@ const NumbersAnimatedDesktop = () => {
       ease: 'power2.out',
     })
 
-    // Phase 2a: heading fades in after numbers are fully visible (30% - 50% of scroll)
     tl.to(headingRef.current, {
       opacity: 1,
       duration: 0.4,
       ease: 'power2.out',
     })
 
-    // Phase 2b: Hold both heading and numbers in position (50% - 70% of scroll)
     tl.to({}, { duration: 0.1 })
   })
 

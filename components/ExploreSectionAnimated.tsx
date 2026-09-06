@@ -17,8 +17,8 @@ const ExploreSectionAnimated = () => {
           className="text-2xlplus mb-10 lg:text-4xl leading-default text-pretty lg:leading-default"
         >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-          quae ab illo inventore veritatis.
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis.
           <span className="font-bold">
             {' '}
             Et quasi architecto beatae vitae dicta sunt explicabo.

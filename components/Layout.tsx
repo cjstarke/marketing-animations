@@ -18,11 +18,7 @@ export type LayoutProps = {
 }
 
 const Layout = ({ children }: LayoutProps) => {
-
-
-
   const classes = `min-h-screen bg-almostWhite flex flex-col justify-between relative ${inter.variable} ${roboto.variable} font-inter`
-
 
   return (
     <div className={classes}>

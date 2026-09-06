@@ -9,16 +9,15 @@ const CoveSection = () => {
 
   useGSAP(() => {
     if (logoRef.current) {
-      // Create scroll-triggered animation
       gsap.to(logoRef.current, {
         rotation: 0,
         opacity: 1,
         ease: 'none',
         scrollTrigger: {
           trigger: logoRef.current,
-          start: 'top bottom', // Start when element enters viewport from bottom
-          end: 'top 30%', // End when element is 75% up the page (25% from top)
-          scrub: 1, // Smooth scrubbing, takes 1 second to "catch up"
+          start: 'top bottom',
+          end: 'top 30%',
+          scrub: 1,
         },
       })
     }
@@ -45,7 +44,7 @@ const CoveSection = () => {
             <img
               src="https://converge-strapi-prod.s3.us-east-1.amazonaws.com/i_Phone_17_1_1f3889c068.png"
               alt="logo"
-              className='w-44'
+              className="w-44"
             />
           </div>
           <h4 className="text-2xl pt-8 lg:text-3xl">

@@ -11,7 +11,6 @@ const Home = () => {
   const [showCanvasMask, setShowCanvasMask] = useState(true)
   const [showBottomMask, setShowBottomMask] = useState(false)
 
-
   useEffect(() => {
     const handleScroll = () => {
       setShowCanvasMask(window.scrollY < 50)
@@ -28,7 +27,6 @@ const Home = () => {
 
   return (
     <>
-      
       <div>
         <div
           className={`fixed inset-0 z-[5] bg-pale pointer-events-none transition-opacity duration-300 ${
@@ -43,7 +41,6 @@ const Home = () => {
         <div className="relative z-20 bg-pale">
           <SubHero />
         </div>
-        {/* Mobile version - fewer particles, no hover */}
         <div className="block lg:hidden overflow-x-clip">
           <ThreeDBackground
             particleSize={60}
@@ -53,7 +50,6 @@ const Home = () => {
             <ThreeDOverlay />
           </ThreeDBackground>
         </div>
-        {/* Desktop version - more particles, with hover */}
         <div className="hidden lg:block overflow-x-clip">
           <ThreeDBackground
             particleSize={60}
@@ -73,6 +69,5 @@ const Home = () => {
     </>
   )
 }
-
 
 export default Home

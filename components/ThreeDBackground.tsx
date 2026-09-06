@@ -1,7 +1,6 @@
 import { useEffect, useRef, ReactNode } from 'react'
 import * as THREE from 'three'
 
-// GLSL Shaders
 const vertexShader = `
   attribute float size;
   attribute vec3 customColor;
@@ -60,11 +59,9 @@ const ThreeDBackground: React.FC<ThreeDBackgroundProps> = ({
     let INTERSECTED: number | null = null
     let animationFrameId: number
 
-    // Initialize Three.js scene
     const init = () => {
       scene = new THREE.Scene()
 
-      // Setup camera
       camera = new THREE.PerspectiveCamera(
         45,
         container.clientWidth / container.clientHeight,
@@ -73,31 +70,26 @@ const ThreeDBackground: React.FC<ThreeDBackgroundProps> = ({
       )
       camera.position.z = 250
 
-      // Create box geometry for particles with configurable segments
       let boxGeometry = new THREE.BoxGeometry(
-        300, 
-        300, 
-        200, 
-        geometrySegments, 
-        geometrySegments, 
+        300,
+        300,
+        200,
+        geometrySegments,
+        geometrySegments,
         geometrySegments
       )
 
-      // Remove normal and UV attributes
       boxGeometry.deleteAttribute('normal')
       boxGeometry.deleteAttribute('uv')
 
-      // Merge vertices - using toNonIndexed() as alternative to mergeVertices
       const geometry = boxGeometry.toNonIndexed()
 
       const positionAttribute = geometry.getAttribute('position')
 
-      // Create colors and sizes for particles
       const colors: number[] = []
       const sizes: number[] = []
       const color = new THREE.Color()
 
-      // Set all particles to darkPink (#FF0062)
       color.setRGB(1.0, 0.0, 0.384)
 
       for (let i = 0, l = positionAttribute.count; i < l; i++) {
@@ -111,7 +103,6 @@ const ThreeDBackground: React.FC<ThreeDBackgroundProps> = ({
       )
       geometry.setAttribute('size', new THREE.Float32BufferAttribute(sizes, 1))
 
-      // Create shader material
       const material = new THREE.ShaderMaterial({
         uniforms: {
           color: { value: new THREE.Color(0xffffff) },
@@ -124,27 +115,22 @@ const ThreeDBackground: React.FC<ThreeDBackgroundProps> = ({
         fragmentShader,
       })
 
-      // Create particle system
       particles = new THREE.Points(geometry, material)
       scene.add(particles)
 
-      // Setup renderer
       renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true })
       renderer.setPixelRatio(window.devicePixelRatio)
       renderer.setSize(container.clientWidth, container.clientHeight)
       container.appendChild(renderer.domElement)
 
-      // Setup raycaster for interactivity only if hover is enabled
       if (enableHover) {
         raycaster = new THREE.Raycaster()
         pointer = new THREE.Vector2()
         container.addEventListener('pointermove', onPointerMove)
       }
 
-      // Event listeners
       window.addEventListener('resize', onWindowResize)
 
-      // Start animation loop
       animate()
     }
 
@@ -167,16 +153,13 @@ const ThreeDBackground: React.FC<ThreeDBackgroundProps> = ({
     }
 
     const render = () => {
-      // Rotate particles
       particles.rotation.x += 0.0005
       particles.rotation.y += 0.001
 
-      // Only perform hover interactions if enabled
       if (enableHover && raycaster && pointer) {
         const geometry = particles.geometry
         const attributes = geometry.attributes
 
-        // Check for intersections with raycaster
         raycaster.setFromCamera(pointer, camera)
         const intersects = raycaster.intersectObject(particles)
 
@@ -187,7 +170,6 @@ const ThreeDBackground: React.FC<ThreeDBackgroundProps> = ({
             intersectedIndex !== undefined &&
             INTERSECTED !== intersectedIndex
           ) {
-            // Reset previous intersected particle
             if (INTERSECTED !== null) {
               ;(attributes.size as THREE.BufferAttribute).array[INTERSECTED] =
                 particleSize
@@ -199,7 +181,6 @@ const ThreeDBackground: React.FC<ThreeDBackgroundProps> = ({
             ;(attributes.size as THREE.BufferAttribute).needsUpdate = true
           }
         } else if (INTERSECTED !== null) {
-          // Reset when no intersection
           ;(attributes.size as THREE.BufferAttribute).array[INTERSECTED] =
             particleSize
           ;(attributes.size as THREE.BufferAttribute).needsUpdate = true
@@ -210,10 +191,8 @@ const ThreeDBackground: React.FC<ThreeDBackgroundProps> = ({
       renderer.render(scene, camera)
     }
 
-    // Initialize scene
     init()
 
-    // Cleanup function
     return () => {
       cancelAnimationFrame(animationFrameId)
       window.removeEventListener('resize', onWindowResize)
@@ -242,13 +221,16 @@ const ThreeDBackground: React.FC<ThreeDBackgroundProps> = ({
       className={`w-full bg-black relative ${className}`}
       style={{ minHeight: '1200px', zIndex: 1 }}
     >
-      <div 
-        ref={containerRef} 
+      <div
+        ref={containerRef}
         className="fixed inset-0 w-full h-full"
         style={{ zIndex: 0 }}
       />
       {children && (
-        <div className="relative flex items-center justify-center pointer-events-none overflow-x-clip" style={{ minHeight: '1200px', zIndex: 10 }}>
+        <div
+          className="relative flex items-center justify-center pointer-events-none overflow-x-clip"
+          style={{ minHeight: '1200px', zIndex: 10 }}
+        >
           {children}
         </div>
       )}

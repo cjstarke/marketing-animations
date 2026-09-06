@@ -3,6 +3,6 @@
     "page": "home",
     "title": "Company | Slogan",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "ogImage":  "https://converge-strapi-prod.s3.amazonaws.com/convergeog_03fb18914a.webp"
+    "ogImage": "https://converge-strapi-prod.s3.amazonaws.com/convergeog_03fb18914a.webp"
   }
 ]

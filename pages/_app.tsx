@@ -6,13 +6,10 @@ import '../utils/gsap'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-      <main>
-        <Layout>
-          <Component
-            {...pageProps}
-            topPageMargin=""
-          />
-        </Layout>
-      </main>
+    <main>
+      <Layout>
+        <Component {...pageProps} topPageMargin="" />
+      </Layout>
+    </main>
   )
 }

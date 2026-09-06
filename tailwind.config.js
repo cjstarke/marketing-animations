@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   ...require('@converge/ui/tailwind.config'),
   content: [

@@ -1,4 +1,3 @@
-
 export const XIcon = () => {
   return (
     <div className="w-full max-w-full">

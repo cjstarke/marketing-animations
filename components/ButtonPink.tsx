@@ -35,7 +35,7 @@ const ButtonPink = ({
       <p className="text-nowrap">{text}</p>
       <div className="w-2 group-hover:w-4 transition-all ease-in"></div>
       <div className="w-4">
-        <RightArrow strokeColor='#ffffff' />
+        <RightArrow strokeColor="#ffffff" />
       </div>
     </a>
   )

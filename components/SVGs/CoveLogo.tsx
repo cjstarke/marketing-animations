@@ -1,11 +1,7 @@
 export const CoveLogo = () => {
   return (
     <div className="w-full max-w-full">
-      <svg
-        viewBox="0 0 96 96"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           d="M77.2653 0H17.8304C7.98296 0 0 7.98296 0 17.8304V77.2653C0 87.1127 7.98296 95.0957 17.8304 95.0957H77.2653C87.1127 95.0957 95.0957 87.1127 95.0957 77.2653V17.8304C95.0957 7.98296 87.1127 0 77.2653 0Z"
           fill="white"

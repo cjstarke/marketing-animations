@@ -13,7 +13,6 @@ const ThreeDOverlay2XL = () => {
   const shiftWordRef = useRef<HTMLDivElement>(null)
 
   useGSAP(() => {
-    // Don't create animations until refs are ready
     if (
       !wrapperRef.current ||
       !performanceRef.current ||
@@ -41,8 +40,6 @@ const ThreeDOverlay2XL = () => {
       },
     })
 
-    // Hide the scaled-up Shift SVG once the Explore section has fully scrolled
-    // past, so its huge transform no longer inflates document scroll height.
     ScrollTrigger.create({
       trigger: '#explore-section',
       start: 'bottom top',
@@ -50,14 +47,13 @@ const ThreeDOverlay2XL = () => {
       onLeaveBack: () => gsap.set(shiftWordRef.current, { display: 'block' }),
     })
 
-    // Set initial states - off-screen
     gsap.set(performanceRef.current, {
-      x: '100vw', // Start off-screen right
+      x: '100vw',
       opacity: 0,
     })
 
     gsap.set(shiftRef.current, {
-      x: '-100vw', // Start off-screen left
+      x: '-100vw',
     })
 
     gsap.set(shiftWordRef.current, {
@@ -66,27 +62,26 @@ const ThreeDOverlay2XL = () => {
 
     h2Timeline
       .to(performanceRef.current, {
-        x: 0, // Fly in from right to center
+        x: 0,
         opacity: 1,
         duration: 0.5,
         ease: 'power2.out',
-      }) // Fly in and scale the text
-      .to(performanceRef.current, { opacity: 1, duration: 0.1 }) // Hold
+      })
+      .to(performanceRef.current, { opacity: 1, duration: 0.1 })
       .to(performanceRef.current, {
-        y: '-100vh', // Fly up
-        opacity: 0, // Fade out
+        y: '-100vh',
+        opacity: 0,
         duration: 0.4,
         ease: 'power2.in',
-      }) // Smooth exit
+      })
 
     shiftTimeline
       .to(shiftRef.current, {
         x: 0,
         duration: 0.4,
         ease: 'power2.out',
-      }) // Fly in from right and scale
+      })
       .to(needsARef.current, { opacity: 0, duration: 0.03 })
-      // Collapse "needs a" width to 0 while fading out - flex will auto-center "shift"
       .to(needsARef.current, {
         opacity: 0,
         width: 0,

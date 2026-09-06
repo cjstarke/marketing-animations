@@ -21,14 +21,12 @@ const NumbersAnimatedMobile = () => {
     },
   ]
 
-  // Mobile refs
   const headingRef = useRef<HTMLDivElement>(null)
   const number1Ref = useRef<HTMLDivElement>(null)
   const number2Ref = useRef<HTMLDivElement>(null)
   const number3Ref = useRef<HTMLDivElement>(null)
   const number4Ref = useRef<HTMLDivElement>(null)
 
-  // Apply scroll-triggered fade-in animation with custom start position
   useScrollTriggerFadeIn(
     [headingRef, number1Ref, number2Ref, number3Ref, number4Ref],
     {
@@ -45,16 +43,13 @@ const NumbersAnimatedMobile = () => {
   return (
     <div className="w-full flex flex-col px-6 items-center pt-24 pb-24">
       <div className="w-full max-w-lg">
-        {/* Heading Section */}
         <div className="text-center mb-12">
           <h3 className="noshake text-2xl sm:text-3xl font-medium mb-4">
             Lorem ipsum dolor sit amet.
           </h3>
         </div>
 
-        {/* Numbers Grid - Two Columns */}
         <div className="grid grid-cols-2 gap-6 sm:gap-8">
-          {/* Left Column - 3 items */}
           <div className="flex flex-col space-y-8">
             <div ref={number1Ref} className="text-center">
               <div className={numberTitleClass}>{results[0].title}</div>
@@ -70,7 +65,6 @@ const NumbersAnimatedMobile = () => {
             </div>
           </div>
 
-          {/* Right Column - 2 items */}
           <div className="flex flex-col space-y-8">
             <div ref={number3Ref} className="text-center">
               <div className={numberTitleClass}>{results[2].title}</div>

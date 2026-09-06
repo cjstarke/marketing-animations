@@ -3,7 +3,6 @@
 const fs = require('fs');
 const path = require('path');
 
-// Map of files and their unused imports to remove
 const filesToFix = {
   'components/CareerGrid.tsx': {
     removeImports: ['id', 'btnId'],

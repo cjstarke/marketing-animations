@@ -2,7 +2,6 @@ import { useRef, useState } from 'react'
 import ButtonPink from './ButtonPink'
 import UpDown from './SVGs/UpDown'
 
-// Define dropdown options with labels and links
 const dropdownOptions = [
   { label: 'Media', link: '/what-we-do/' },
   { label: 'Lead Generation', link: '/what-we-do/' },
@@ -38,16 +37,15 @@ const SubHero = () => {
           </h2>
           <p className="text-lgplus leading-five text-pretty mb-10 lg:mb-20 lg:text-2xlplus lg:leading-default xl:leading-default lg:max-w-200 xl:text-3xl xl:max-w-224">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat.
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
           </p>
           <div className="flex flex-col lg:flex-row lg:items-center w-full">
             <h3 className="text-3xlplus text-pretty lg:text-5xl mb-4 lg:mb-0 lg:mr-6">
               Lorem ipsum dolor sit
             </h3>
 
-            {/* dropdown */}
             <div className="flex space-x-3">
               <div className="relative font-medium">
                 <button
@@ -60,7 +58,6 @@ const SubHero = () => {
                   </div>
                 </button>
 
-                {/* Dropdown menu */}
                 {isDropdownOpen && (
                   <div className="absolute z-10 mt-2 min-w-full bg-pale rounded-lg">
                     <div className="w-full dropdown-gradient rounded-lg">
@@ -72,7 +69,6 @@ const SubHero = () => {
                           >
                             {option.label}
                           </button>
-                          {/* Add divider after each option except the last one */}
                           {index < dropdownOptions.length - 1 && (
                             <div className="h-[1px] mx-4 bg-[#D9D9D9]" />
                           )}
@@ -83,7 +79,6 @@ const SubHero = () => {
                 )}
               </div>
 
-              {/* button */}
               <ButtonPink
                 id="subhero-go"
                 href={selectedOption.link}
