@@ -21,11 +21,9 @@ This project is a marketing company's website template, built to showcase cool, 
 
 The app is just a snippet of the homepage, where we can see these animations:
 
-<video src="https://converge-strapi-prod.s3.us-east-1.amazonaws.com/venndiagramrecording_56123ceda0.webm" autoplay loop muted playsinline controls></video>
+![Venn diagram scroll animation](https://converge-strapi-prod.s3.us-east-1.amazonaws.com/venndiagramrecording_6cdd16bce0.gif)
 
-<video src="https://converge-strapi-prod.s3.us-east-1.amazonaws.com/threejsrecording_46f6ea5f37.webm" autoplay loop muted playsinline controls></video>
-
-> **Note:** WebM is a fine format here — GitHub natively renders `<video>` tags in README files. However, for security/UX reasons GitHub strips the `autoplay` attribute (and sometimes `loop`) when it sanitizes README HTML, so viewers on GitHub.com will see a paused video with controls that they need to press play on, rather than a true autoplay. The `muted` + `playsinline` attributes are kept so that if this README is rendered elsewhere (e.g. a docs site or raw HTML viewer) that doesn't sanitize the tag, autoplay will work as expected there.
+![Three.js scroll animation](https://converge-strapi-prod.s3.us-east-1.amazonaws.com/threejsrecording_3f801fa842.gif)
 
 ## Learn more
 
