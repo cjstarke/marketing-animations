@@ -19,11 +19,10 @@ This project is a marketing company's website template, built to showcase cool, 
 - **[Lottie](https://lottiefiles.com/)** (`@lottiefiles/lottie-player` + interactivity) for lightweight vector animations
 - **Tailwind CSS** for styling
 
-The app is just a snippet of the homepage, where we can see these animations:
+The app is just a snippet of the homepage, where we can animations like this:
 
 ![Venn diagram scroll animation](https://converge-strapi-prod.s3.us-east-1.amazonaws.com/venndiagramrecording_6cdd16bce0.gif)
 
-![Three.js scroll animation](https://converge-strapi-prod.s3.us-east-1.amazonaws.com/threejsrecording_3f801fa842.gif)
 
 ## Learn more
 
