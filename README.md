@@ -31,3 +31,5 @@ The app is just a snippet of the homepage, where we can animations like this:
 - [Three.js Documentation](https://threejs.org/docs/) — learn about 3D rendering with Three.js
 
 This is a template project intended to be run locally only; no staging or production deployment configuration is included.
+
+The complete project can be seen [here](https://www.convergemarketing.com/)
