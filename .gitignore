@@ -20,6 +20,10 @@
 *.pem
 .vscode
 
+# AI assistant config
+.claude
+.cline
+
 # debug
 npm-debug.log*
 yarn-debug.log*
